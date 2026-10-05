@@ -1,0 +1,135 @@
+{
+  "idle": [
+    {
+      "frame": 0,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 1,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 2,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 3,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 4,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 5,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    }
+  ],
+  "review": [
+    {
+      "frame": 0,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 1,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 2,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 3,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 4,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 5,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    }
+  ],
+  "jumping": [
+    {
+      "frame": 0,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 1,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 2,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 3,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 4,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    }
+  ],
+  "failed": [
+    {
+      "frame": 0,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 1,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 2,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 3,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 4,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 5,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 6,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    },
+    {
+      "frame": 7,
+      "max_alpha_difference": 0,
+      "max_visible_composite_difference_0_to_255": 0.0
+    }
+  ]
+}

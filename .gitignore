@@ -1,0 +1,48 @@
+# Local references and project/session notes
+.local/
+/weiweimei.mp4
+/expression-references/
+/reference/
+/native-contract/
+/PROJECT_BRIEF.md
+/PROJECT_NOTES.md
+/PLAN.md
+/STATUS.md
+/VIDEO_NOTES.md
+/REFERENCE_NOTES.md
+
+# Machine-specific installation evidence
+/final/installation*.json
+/final/native-acceptance.json
+
+# Generated release archives and checksums (build locally)
+/final/*.zip
+/final/delivery.json
+/final/ZIP-SHA256.txt
+/final/SHA256SUMS.txt
+/final/spritesheet.png
+/final/frames/
+
+# Approved v3 artwork and frames needed to rebuild the final atlas
+/samples/*
+!/samples/render_samples_v3.py
+!/samples/v3/
+/samples/v3/*
+!/samples/v3/native-frames/
+!/samples/v3/idle-thin-source-v1.png
+!/samples/v3/happy-thin-source-v1.png
+!/samples/v3/failed-thin-source-v1.png
+!/samples/v3/idle-prompt.txt
+!/samples/v3/happy-prompt.txt
+!/samples/v3/failed-prompt.txt
+
+# Python and editor temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

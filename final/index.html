@@ -1,0 +1,36 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>维维美 · 整套细描边预览</title>
+<style>
+:root{font-family:"Microsoft YaHei",sans-serif;color:#263040;background:#f3f5fa;color-scheme:light}*{box-sizing:border-box}body{margin:0;padding:26px;max-width:1160px;margin-inline:auto}h1{font-size:27px;margin:0 0 12px}p{line-height:1.75;color:#526078}section{border:1px solid #dce1eb;background:white;border-radius:20px;padding:24px;margin:22px 0}.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:18px 0}button,select,a.action{font:inherit;padding:9px 14px;border:1px solid #ced5e2;border-radius:10px;background:white;color:#263040;cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #786bdc}label{display:flex;align-items:center;gap:6px}.stage{height:340px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:#f0f2f6;position:relative}.stage.dark{background:#1c202a}.pet{width:192px;height:208px;background-image:url('weiweimei/spritesheet.webp');background-repeat:no-repeat;background-size:1536px 2288px;image-rendering:auto;transform-origin:center;flex:none}.stage.small .pet{transform:scale(.5)}.status{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#526078}.dark .status{color:#d9deea}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{padding:14px;background:#f3f5f8;border-radius:12px;text-align:center}.card img{display:block;width:192px;height:208px;max-width:100%;object-fit:contain;margin:auto}.card p{margin:8px 0}.contact{width:100%;height:auto;border-radius:10px}details summary{cursor:pointer;padding:12px 0;font-weight:600}a{color:#4f52b9}.hint{font-size:14px}.pill{display:inline-block;border-radius:20px;background:#ece9fb;color:#6552a8;padding:5px 12px;font-size:14px}.row{display:flex;gap:12px;flex-wrap:wrap}@media(max-width:650px){body{padding:16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}section{padding:16px}}
+</style>
+<h1>维维美 · 整套细描边预览</h1><span class="pill">九组动作 · 十六方向视线</span>
+<p>已采用你确认的三个表情和细描边方向。平时轻眨眼，完成时张嘴吐舌开心，出错时短暂炸毛。</p>
+<section><h2>试试看</h2><div class="controls"><label>动作 <select id="state"><option value="idle">常态</option><option value="running-right">向右跑</option><option value="running-left">向左跑</option><option value="waving">挥手</option><option value="jumping">小跳</option><option value="failed">炸毛</option><option value="waiting">等你回应</option><option value="running">思考工作</option><option value="review">完成开心</option></select></label><button id="replay">重播</button><label><input id="pause" type="checkbox">暂停</label><label><input id="loop" type="checkbox">循环素材演示</label></div>
+<div class="controls"><label><input id="dark" type="checkbox">深色背景</label><label><input id="small" type="checkbox">桌宠小尺寸</label><label><input id="follow" type="checkbox">鼠标方向素材演示</label><label>视线 <select id="direction"><option value="-1">中性</option></select></label></div>
+<div class="stage" id="stage"><div class="pet" id="pet" role="img" aria-label="维维美动画"></div><div class="status" id="status"></div></div>
+<p class="hint">方向与循环开关用于查看素材。网页自行读取鼠标位置；当前原生客户端未接入手动鼠标跟随。原生思考默认播三轮，约 2.46 秒，然后回到常态，素材配置不能开启持续思考。</p>
+</section>
+<section><h2>九组动作</h2><div class="grid" id="gallery"></div><p class="hint">这里的透明动画均从最终安装图集重新解码生成，背景不会进入宠物素材。</p></section>
+<section><h2>十六方向</h2><img class="contact" src="previews/look-directions.png" alt="维维美十六方向对照，零度朝上、顺时针排列"><details><summary>全部帧与小尺寸检查</summary><img class="contact" src="previews/all-frames-contact.png" alt="全部73个动作与视线帧"><img class="contact" src="previews/edges-light-dark.png" alt="常态、开心、炸毛深浅背景描边检查"></details></section>
+<p class="hint">本页是最终素材预览。用户已确认原生显示和外观正常，并报告手动鼠标未被跟随、思考仅短暂触发；相关客户端限制已记录。完成与失败反应、拖动和重开保留仍需分别核实。</p>
+<script>
+const names=['idle','running-right','running-left','waving','jumping','failed','waiting','running','review'];
+const labels=['常态','向右跑','向左跑','挥手','小跳','炸毛','等你回应','思考工作','完成开心'];
+const durations=[[1680,660,660,840,840,1920],[120,120,120,120,120,120,120,220],[120,120,120,120,120,120,120,220],[140,140,140,280],[140,140,140,140,280],[140,140,140,140,140,140,140,240],[150,150,150,150,150,260],[120,120,120,120,120,220],[150,150,150,150,150,280]];
+const state=document.querySelector('#state'),direction=document.querySelector('#direction'),pet=document.querySelector('#pet'),stage=document.querySelector('#stage'),status=document.querySelector('#status');
+for(let i=0;i<16;i++){let o=document.createElement('option');o.value=i;o.textContent=`${i*22.5}°`;direction.append(o)}
+const gallery=document.querySelector('#gallery');names.forEach((name,i)=>{let card=document.createElement('div');card.className='card';let img=document.createElement('img');img.src=`previews/${name}.webp`;img.alt=labels[i]+'动画';let p=document.createElement('p');p.textContent=labels[i];card.append(img,p);gallery.append(card)});
+let elapsed=0,last=performance.now(),pointer=null,activeRow=0,activeCol=0;
+function reset(){elapsed=0;last=performance.now()}
+state.onchange=reset;document.querySelector('#replay').onclick=reset;
+document.querySelector('#dark').onchange=e=>stage.classList.toggle('dark',e.target.checked);
+document.querySelector('#small').onchange=e=>stage.classList.toggle('small',e.target.checked);
+document.querySelector('#follow').onchange=()=>pointer=null;
+document.addEventListener('mousemove',e=>pointer={x:e.clientX,y:e.clientY});
+function frameAt(ds,ms){for(let i=0;i<ds.length;i++){if(ms<ds[i])return i;ms-=ds[i]}return ds.length-1}
+function draw(now){if(!document.querySelector('#pause').checked)elapsed+=now-last;last=now;let row=names.indexOf(state.value),times=durations[row],total=times.reduce((a,b)=>a+b,0);let col;
+if(row>0&&!document.querySelector('#loop').checked&&elapsed>=total*3){row=0;times=durations[0];total=times.reduce((a,b)=>a+b,0);col=frameAt(times,(elapsed-durations[names.indexOf(state.value)].reduce((a,b)=>a+b,0)*3)%total)}else col=frameAt(times,elapsed%total);
+let bin=Number(direction.value);if(document.querySelector('#follow').checked&&pointer){let b=pet.getBoundingClientRect(),dx=pointer.x-(b.left+b.width/2),dy=pointer.y-(b.top+b.height/2);bin=Math.hypot(dx,dy)<=1?-1:Math.round(((Math.atan2(dx,-dy)*180/Math.PI+360)%360)/22.5)%16}
+if(bin>=0&&[0,3,7].includes(row)){row=9+Math.floor(bin/8);col=bin%8;status.textContent=`视线 ${bin*22.5}°`}else status.textContent=`${labels[row]} · 第 ${col+1} 帧`;
+pet.style.backgroundPosition=`${-col*192}px ${-row*208}px`;pet.dataset.row=row;pet.dataset.col=col;activeRow=row;activeCol=col;requestAnimationFrame(draw)}
+requestAnimationFrame(draw);
+</script></html>
