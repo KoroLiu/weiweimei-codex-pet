@@ -1,3 +1,5 @@
+> 范围澄清（2026-10-06）：本文中的 16 方向计数仅是历史素材和 v2 格式校验。视线跟随已取消，不列为当前可用功能；原生持续手动鼠标跟随不可用。
+
 # Asset QA
 
 The v2 atlas and previews were produced on October 4, 2026. Native feedback was updated on October 5, 2026.

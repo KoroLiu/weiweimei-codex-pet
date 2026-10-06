@@ -1,0 +1,25 @@
+const fs=require('node:fs');
+const path=require('node:path');
+const {chromium}=require('C:/Users/11507/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..');
+(async()=>{
+  const browser=await chromium.launch({executablePath:path.join(root,'node_modules/.remotion/chrome-headless-shell/win64/chrome-headless-shell-win64/chrome-headless-shell.exe'),headless:true});
+  const page=await browser.newPage({viewport:{width:1440,height:1100}});
+  const errors=[];
+  const audioResponses=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('response',response=>{if(/voiceover\/.*\.wav/.test(response.url()))audioResponses.push({file:response.url().split('/').pop(),status:response.status()});});
+  await page.goto('http://localhost:3007/WeiweimeiIntro',{waitUntil:'domcontentloaded'});
+  await page.getByText('WeiweimeiIntro',{exact:true}).first().waitFor({timeout:30000});
+  await page.getByRole('button',{name:'Play',exact:true}).click();
+  const storyboard=JSON.parse(fs.readFileSync(path.join(root,'storyboard.json'),'utf8').replace(/^\uFEFF/,''));
+  await page.getByText(storyboard[0].cues[0].text,{exact:true}).waitFor({timeout:15000});
+  const audioState=await page.locator('audio').evaluateAll(as=>as.map(a=>({paused:a.paused,readyState:a.readyState,duration:a.duration,currentTime:a.currentTime,error:a.error?.message??null})).filter(a=>a.currentTime>0));
+  await page.getByRole('button',{name:'Pause',exact:true}).click();
+  await page.screenshot({path:path.join(root,'checks/studio.png')});
+  const report={title:await page.title(),pageErrors:errors,captionAppearedOnPlayback:true,audioResponses,audioState};
+  fs.writeFileSync(path.join(root,'checks/studio-report.json'),JSON.stringify(report,null,2));
+  console.log(JSON.stringify(report));
+  await browser.close();
+  if(errors.length)throw new Error(errors.join('\n'));
+})().catch(e=>{console.error(e);process.exitCode=1;});

@@ -1,0 +1,16 @@
+{
+  "profileId": "weiweimei-yuanqi-094-sentence-v1",
+  "profilePath": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\profile.json",
+  "approvedBy": null,
+  "durationFactor": 0.94,
+  "manualPauseInsertion": true,
+  "scriptStatus": "draft_awaiting_user_review",
+  "generationUnit": "complete_sentences",
+  "narrator": "维维美本人第一人称",
+  "lastBatch": "C:\\IndexTTS\\outputs\\weiweimei\\pet-intro\\weiweimei-094-farewell-pet-v3\\batch-manifest.json",
+  "storyboardSha256": "8db19160c29188abcf837e3bdb30fc5351d890765f916a9648cc0f99c1870027",
+  "sentencePauseMs": 160,
+  "deliveryStatus": "awaiting_new_listening_review",
+  "pendingPlan": null,
+  "previousApprovedProfile": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\profile.json"
+}

@@ -18,7 +18,7 @@ The project owner confirmed selecting the pet, seeing it in the native desktop w
 
 The inspected client plays the working reaction for three cycles, approximately 2.46 seconds, then returns to idle. The local manifest does not provide a persistent working-loop setting. The pet's expression should therefore not be used as the sole indicator of task progress.
 
-The sixteen directional frames are present. In this client, gaze targets come from text insertion or computer-operation events; continuous tracking of the physical mouse in the native pet window was not available. The web preview's mouse tracking and continuous-loop controls only demonstrate the artwork.
+**Directional gaze tracking is cancelled and excluded from the current delivered feature scope.** The sixteen legacy cells remain for v2 format compatibility. In the inspected client, gaze targets can come from text insertion or computer-operation events, but the owner's requested continuous physical-mouse tracking was unavailable. Web-preview controls only demonstrate artwork and are not evidence of native support.
 
 Completed, waiting, failed, dragging, and restart persistence still require individual end-to-end checks. Their presence in the atlas or client mapping does not establish native runtime success. Other operating systems and client versions have not been tested.
 

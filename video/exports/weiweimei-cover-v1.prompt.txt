@@ -1,0 +1,16 @@
+Use case: ads-marketing
+Asset type: One finished landscape 16:9 cover thumbnail for an existing Chinese video introducing a Codex desktop pet and its installation. Aim for a crisp high-resolution PNG, ideally 1920 x 1080 or larger, ready to use as the video's cover.
+Primary request: Generate a polished, joyful anime chibi video cover using the supplied character reference as the identity reference. This is a new cover composition, not an edit of the reference file.
+Input image 1: The exact character identity: Weiweimei (维维美), with silver-grey hair, a curved little hair tuft, vivid red and black horn-like hair ornaments, big golden amber eyes, soft pink cheeks, tiny playful smiling mouth, black/red/white costume, short chibi body and black boots. Preserve the reference's specific face, colors, costume silhouette and charming proportions. Keep her instantly recognizable, clean thin outlines and flat cel shading. Show only one character, large, lively and welcoming.
+Scene/backdrop: A clean pale ice-blue and white background consistent with the video's existing blue editorial design, with a simple stylized computer desktop/window card that reads “Codex” and a discreet pet-frame/window motif. Subtle blue graphic accents and a few small warm-red comic accent strokes connect the cute character to the desktop-pet installation topic. Avoid busy screenshots or dense UI.
+Composition/framing: A strong two-part thumbnail composition that gives the large title its own uncluttered region and the oversized character her own region, with a gentle sense of her popping out of a desktop window. Keep character fully legible and text unobstructed. All important content inside a generous 7% safe margin so platform thumbnail cropping does not cut letters or the face. Balanced whitespace, strong contrast, immediately readable at mobile thumbnail size.
+Style/medium: Professionally designed Chinese tech-video thumbnail with sharp flat anime illustration, clean typography, tasteful soft depth behind the desktop card; no photorealism, no 3D plastic figure.
+Mood: Playful, cheerful and energetic, suitable for the friendly character-led installation tutorial.
+Text (render verbatim, correctly spelled, with no additional writing):
+Main headline, very large bold modern Chinese display type in deep navy and bright blue, arranged as two lines:
+“把维维美”
+“装进 Codex！”
+Small secondary line, still readable:
+“虚拟桌面宠物 · 安装教程”
+The desktop window may contain only the word “Codex”.
+Constraints: No other characters, no extra limbs, no watermark, no logos besides the plain word Codex, no invented feature numbers, no extra promotional claims, no subtitles copied from the source video. Keep Chinese characters exact, especially 维维美. Background opaque.

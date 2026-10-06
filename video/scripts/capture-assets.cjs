@@ -1,0 +1,21 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const {chromium} = require('C:/Users/11507/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root = path.resolve(__dirname, '..');
+const executablePath = path.join(root, 'node_modules/.remotion/chrome-headless-shell/win64/chrome-headless-shell-win64/chrome-headless-shell.exe');
+(async () => {
+  const browser = await chromium.launch({executablePath, headless:true});
+  const page = await browser.newPage({viewport:{width:1100,height:930}, deviceScaleFactor:1});
+  await page.goto('file:///' + path.join(root, '../final/index.html').replace(/\\/g,'/'));
+  await page.locator('#pause').check();
+  await page.locator('#state').selectOption('review');
+  await page.screenshot({path:path.join(root,'public/preview-real.png')});
+  console.log('Captured actual local preview');
+  await page.goto('https://github.com/KoroLiu/weiweimei-codex-pet', {waitUntil:'domcontentloaded', timeout:45000});
+  console.log('Repository page:', await page.title());
+  await page.waitForLoadState('networkidle', {timeout:20000}).catch(()=>{});
+  await page.getByRole('button',{name:'Code',exact:true}).click();
+  await page.getByRole('link',{name:'Download ZIP'}).waitFor();
+  await page.screenshot({path:path.join(root,'public/repository-real.png'),animations:'disabled'});
+  await browser.close();
+})().catch(e=>{console.error(e.message);process.exitCode=1});

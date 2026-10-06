@@ -6,7 +6,7 @@
 
 ## Preview
 
-Open `index.html` beside this guide in a browser. Switch the nine animations, sixteen directions, light/dark backgrounds, and small display size. This works offline.
+Open `index.html` beside this guide in a browser. Switch the nine animations, light/dark backgrounds, and small display size. This works offline.
 
 The preview's continuous-loop and mouse-direction controls demonstrate the artwork. The Codex desktop client controls native playback and interaction separately.
 
@@ -37,9 +37,9 @@ The script respects `CODEX_HOME`. For a custom destination, pass `-PetCodexHome 
 | Thinking / working | `running` |
 | Happy completion | `review` |
 
-![Sixteen look directions](previews/look-directions.png)
+### Cancelled directional feature
 
-The v2 atlas contains sixteen directional frames, starting upward and proceeding clockwise in 22.5-degree steps.
+**Directional gaze tracking is excluded from current supported features.** The owner cancelled it, and the inspected native window does not provide the requested continuous physical-mouse tracking. Legacy directional cells remain only for v2 atlas compatibility. The old preview controls inspect artwork.
 
 ## Current limits
 

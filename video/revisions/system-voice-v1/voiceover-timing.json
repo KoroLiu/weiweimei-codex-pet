@@ -1,0 +1,238 @@
+[
+  {
+    "id": "Hook",
+    "title": "给 Codex 添一位小伙伴",
+    "durationInFrames": 298,
+    "cues": [
+      {
+        "text": "我给 Codex 做了一只小宠物",
+        "startMs": 466.6666666666667,
+        "endMs": 3449.84126984127,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Hook-1.wav",
+        "frame": 14,
+        "duration": 2.883174603174603
+      },
+      {
+        "text": "她叫维维美",
+        "startMs": 3566.666666666667,
+        "endMs": 5273.197278911564,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Hook-2.wav",
+        "frame": 107,
+        "duration": 1.606530612244898
+      },
+      {
+        "text": "带你认识她，再装到自己的电脑上",
+        "startMs": 5400.0,
+        "endMs": 9275.691609977324,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Hook-3.wav",
+        "frame": 162,
+        "duration": 3.7756916099773243
+      }
+    ]
+  },
+  {
+    "id": "Showcase",
+    "title": "九组动作，表情很丰富",
+    "durationInFrames": 283,
+    "cues": [
+      {
+        "text": "眨眼、挥手、小跳、炸毛……",
+        "startMs": 466.6666666666667,
+        "endMs": 4481.224489795918,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Showcase-1.wav",
+        "frame": 14,
+        "duration": 3.9145578231292517
+      },
+      {
+        "text": "一共九组动作、十六个视线方向",
+        "startMs": 4600.0,
+        "endMs": 8777.596371882086,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Showcase-2.wav",
+        "frame": 138,
+        "duration": 4.077596371882086
+      }
+    ]
+  },
+  {
+    "id": "Download",
+    "title": "01 · 下载项目",
+    "durationInFrames": 290,
+    "cues": [
+      {
+        "text": "打开简介里的 GitHub 项目链接",
+        "startMs": 466.6666666666667,
+        "endMs": 3563.0839002267576,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Download-1.wav",
+        "frame": 14,
+        "duration": 2.9964172335600905
+      },
+      {
+        "text": "Code → Download ZIP，下载后解压",
+        "startMs": 3666.6666666666665,
+        "endMs": 8998.730158730157,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Download-2.wav",
+        "frame": 110,
+        "duration": 5.232063492063492
+      }
+    ]
+  },
+  {
+    "id": "Preview",
+    "title": "02 · 先看看她的样子",
+    "durationInFrames": 297,
+    "cues": [
+      {
+        "text": "打开 final 里的 index.html",
+        "startMs": 466.6666666666667,
+        "endMs": 3414.6938775510207,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Preview-1.wav",
+        "frame": 14,
+        "duration": 2.8480272108843536
+      },
+      {
+        "text": "离线切换动作，看看喜不喜欢",
+        "startMs": 3533.333333333333,
+        "endMs": 9246.938775510203,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Preview-2.wav",
+        "frame": 106,
+        "duration": 5.613605442176871
+      }
+    ]
+  },
+  {
+    "id": "Install",
+    "title": "03 · 把宠物放到这里",
+    "durationInFrames": 448,
+    "cues": [
+      {
+        "text": "复制 final 里的 weiweimei 文件夹",
+        "startMs": 466.6666666666667,
+        "endMs": 4093.786848072562,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Install-1.wav",
+        "frame": 14,
+        "duration": 3.5271201814058957
+      },
+      {
+        "text": "粘贴到用户目录下的 .codex\\pets",
+        "startMs": 4200.0,
+        "endMs": 9966.57596371882,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Install-2.wav",
+        "frame": 126,
+        "duration": 5.666575963718821
+      },
+      {
+        "text": "确认里面直接有这两个文件",
+        "startMs": 10066.666666666666,
+        "endMs": 14279.410430839001,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Install-3.wav",
+        "frame": 302,
+        "duration": 4.112743764172335
+      }
+    ]
+  },
+  {
+    "id": "Activate",
+    "title": "04 · 在 Codex 中选择她",
+    "durationInFrames": 294,
+    "cues": [
+      {
+        "text": "设置 → Mini 与虚拟宠物",
+        "startMs": 466.6666666666667,
+        "endMs": 4624.263038548753,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Activate-1.wav",
+        "frame": 14,
+        "duration": 4.057596371882086
+      },
+      {
+        "text": "刷新列表 → 选择维维美 → 打开显示",
+        "startMs": 4733.333333333333,
+        "endMs": 9145.12471655329,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Activate-2.wav",
+        "frame": 142,
+        "duration": 4.311791383219955
+      }
+    ]
+  },
+  {
+    "id": "Outro",
+    "title": "让维维美陪你工作",
+    "durationInFrames": 385,
+    "cues": [
+      {
+        "text": "装好以后，她就能陪你工作啦",
+        "startMs": 466.6666666666667,
+        "endMs": 3595.7369614512477,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Outro-1.wav",
+        "frame": 14,
+        "duration": 3.0290702947845807
+      },
+      {
+        "text": "当前工作表情只会短暂播放",
+        "startMs": 3700.0,
+        "endMs": 7636.281179138322,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Outro-2.wav",
+        "frame": 111,
+        "duration": 3.836281179138322
+      },
+      {
+        "text": "项目链接在简介里，我们下期见",
+        "startMs": 7766.666666666667,
+        "endMs": 12153.061224489795,
+        "timestampMs": null,
+        "confidence": null,
+        "pageBreakAfter": true,
+        "audio": "voiceover/Outro-3.wav",
+        "frame": 233,
+        "duration": 4.2863945578231295
+      }
+    ]
+  }
+]

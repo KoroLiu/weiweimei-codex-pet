@@ -1,0 +1,12 @@
+{
+  "path": "C:\\codex project\\codex pet\\video\\exports\\weiweimei-cover-v1.png",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "aspectRatio": 1.77683,
+  "sha256": "2406802f2813ad9d28b850c69c8a0db8eb3c6e619a9d2a596c1d9024f4bd0ba5",
+  "mode": "built-in image_gen",
+  "prompt": "C:\\codex project\\codex pet\\video\\exports\\weiweimei-cover-v1.prompt.txt",
+  "reference": "C:\\codex project\\codex pet\\final\\character-reference.png",
+  "visualReview": "Single recognizable character; Chinese title and subtitle checked; opaque landscape thumbnail."
+}

@@ -1,0 +1,63 @@
+{
+  "sourceId": "BV1rb421h7Wf",
+  "profileId": "weiweimei-yuanqi-094-sentence-v1",
+  "outputDirectory": "C:\\IndexTTS\\outputs\\weiweimei\\pet-intro\\weiweimei-094-farewell-pet-v3",
+  "seed": 42,
+  "generationParameters": {
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.8,
+    "top_k": 30,
+    "num_beams": 3,
+    "repetition_penalty": 10.0,
+    "length_penalty": 0.0,
+    "max_mel_tokens": 1500
+  },
+  "samples": [
+    {
+      "id": "Outro",
+      "label": "让维维美陪你工作",
+      "text": "装好啦，我来陪你工作！提醒一下，工作表情目前只会短暂播放。项目链接在简介里！谢谢大家，我们下期再见！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "segments": [
+        {
+          "text": "装好啦，我来陪你工作！",
+          "durationFactor": 0.94,
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "提醒一下，工作表情目前只会短暂播放。",
+          "durationFactor": 0.94,
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "项目链接在简介里！",
+          "durationFactor": 0.94,
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "谢谢大家，我们下期再见！",
+          "durationFactor": 0.94,
+          "pauseAfterMs": 0
+        }
+      ]
+    }
+  ],
+  "userDirection": "Selected B voice, light energy, duration 0.94. Generation mode: complete_sentences."
+}

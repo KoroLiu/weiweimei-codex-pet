@@ -1,0 +1,288 @@
+{
+  "sourceId": "BV1rb421h7Wf",
+  "profileId": "weiweimei-yuanqi-094-sentence-v1",
+  "outputDirectory": "C:\\IndexTTS\\outputs\\weiweimei\\pet-intro\\weiweimei-094-sentence-pet-v2",
+  "selectedReference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+  "seed": 42,
+  "generationParameters": {
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.8,
+    "top_k": 30,
+    "num_beams": 3,
+    "repetition_penalty": 10.0,
+    "length_penalty": 0.0,
+    "max_mel_tokens": 1500
+  },
+  "samples": [
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Hook",
+      "label": "给 Codex 添一位小伙伴",
+      "text": "<Bang|B AE1 NG>! 我是维维美！",
+      "segments": [
+        {
+          "text": "<Bang|B AE1 NG>! 我是维维美！",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Showcase",
+      "label": "九组动作，表情很丰富",
+      "text": "眨眼、挥手、小跳，还有炸毛！九组动作，表情管够！",
+      "segments": [
+        {
+          "text": "眨眼、挥手、小跳，还有炸毛！",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "九组动作，表情管够！",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Download",
+      "label": "01 · 下载项目",
+      "text": "先打开简介里的项目链接。点开绿色的下载菜单，下载压缩包，再解压。",
+      "segments": [
+        {
+          "text": "先打开简介里的项目链接。",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "点开绿色的下载菜单，下载压缩包，再解压。",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Preview",
+      "label": "02 · 先看看她的样子",
+      "text": "先打开画面上这个预览文件。切换动作，看看是不是你喜欢的样子！",
+      "segments": [
+        {
+          "text": "先打开画面上这个预览文件。",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "切换动作，看看是不是你喜欢的样子！",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Install",
+      "label": "03 · 把宠物放到这里",
+      "text": "喜欢的话，把维维美文件夹放进画面上的宠物目录。确认里面直接有这两个文件。",
+      "segments": [
+        {
+          "text": "喜欢的话，把维维美文件夹放进画面上的宠物目录。",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "确认里面直接有这两个文件。",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Activate",
+      "label": "04 · 在 Codex 中选择她",
+      "text": "回到 <Codex|K OW1 . D EH0 K S> 设置。找到迷你与虚拟宠物，刷新列表，选我，再打开显示！",
+      "segments": [
+        {
+          "text": "回到 <Codex|K OW1 . D EH0 K S> 设置。",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "找到迷你与虚拟宠物，刷新列表，选我，再打开显示！",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Outro",
+      "label": "让维维美陪你工作",
+      "text": "装好啦，我来陪你工作！提醒一下，工作表情目前只会短暂播放。项目链接在简介里！",
+      "segments": [
+        {
+          "text": "装好啦，我来陪你工作！",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "提醒一下，工作表情目前只会短暂播放。",
+          "pauseAfterMs": 160
+        },
+        {
+          "text": "项目链接在简介里！",
+          "pauseAfterMs": 0
+        }
+      ]
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Probe-Bang-plain",
+      "label": "Bang 普通拼写，0.94",
+      "text": "Bang! 我是维维美！"
+    },
+    {
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-094-sentence-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.94,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65,
+      "id": "Probe-Showcase-continuous",
+      "label": "0.94 整段对照，无额外句间静音",
+      "text": "眨眼、挥手、小跳，还有炸毛！九组动作，表情管够！"
+    }
+  ],
+  "userDirection": "0.94；只在完整句子间额外留 160 ms，逗号处不拆；Bang/Codex 使用官方发音标注；删除十六方向宣传，效果待用户试听。"
+}

@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-A custom 2D chibi pet for the Codex desktop app, with thin outlines, nine animation sets, and sixteen look directions. Preview it offline and install it in a desktop client that supports custom pets.
+A custom 2D chibi pet for the Codex desktop app, with thin outlines and nine animation sets. Preview it offline and install it in a desktop client that supports custom pets.
 
 <p align="center">
   <img src="final/previews/idle.webp" width="144" alt="Idle blinking">
@@ -13,7 +13,6 @@ A custom 2D chibi pet for the Codex desktop app, with thin outlines, nine animat
 ## Included
 
 - Nine animation sets: idle, run right, run left, wave, jump, failure, waiting, working, and happy completion.
-- Sixteen look directions: clockwise in 22.5-degree steps, starting upward.
 - A transparent, lossless WebP atlas, with light/dark background previews and a 96 × 104 small-size check.
 - An offline interactive preview, a Windows installer, and a rebuildable ZIP package.
 
@@ -23,7 +22,7 @@ A custom 2D chibi pet for the Codex desktop app, with thin outlines, nine animat
 
 Select **Code → Download ZIP** above, extract the archive, and open [`final/index.html`](final/index.html) in a browser. No server or Python installation is needed.
 
-The preview lets you switch animations, look directions, background, and display size. Its mouse tracking and continuous playback are artwork inspection controls.
+The preview lets you switch animations, background, and display size. Legacy direction and mouse-tracking controls inspect artwork; they are excluded from the current native feature scope.
 
 ### 2. Install in Codex
 
@@ -53,7 +52,7 @@ See the [usage guide](final/USAGE.md) for additional steps.
 
 - Verified: v2 atlas structure, transparent edges, lossless decoding, and preview consistency. The project owner confirmed native selection, display, and normal appearance on Windows.
 - In the inspected client, the working reaction plays three cycles, about 2.46 seconds, then returns to idle. **It does not continuously indicate that a task is running.**
-- The directional artwork is included, but the current native client does not continuously track the physical mouse. Browser preview behavior does not establish native support.
+- **Directional gaze tracking is cancelled and excluded from current supported features.** The inspected native client does not provide the requested continuous physical-mouse tracking. Directional cells remain only for v2 asset compatibility; browser demonstrations do not establish native support.
 - Completed, waiting, failed, dragging, and restart persistence still need individual runtime checks. Other client versions and operating systems have not been verified.
 
 See [asset QA](final/QA.md) and [compatibility notes](docs/COMPATIBILITY.md).

@@ -1,0 +1,57 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1357,
+  "scenes": [
+    {
+      "id": "Hook",
+      "title": "给 Codex 添一位小伙伴",
+      "startFrame": 0,
+      "endFrame": 177,
+      "durationInFrames": 177
+    },
+    {
+      "id": "Showcase",
+      "title": "九组动作，表情很丰富",
+      "startFrame": 177,
+      "endFrame": 368,
+      "durationInFrames": 191
+    },
+    {
+      "id": "Download",
+      "title": "01 · 下载项目",
+      "startFrame": 368,
+      "endFrame": 564,
+      "durationInFrames": 196
+    },
+    {
+      "id": "Preview",
+      "title": "02 · 先看看她的样子",
+      "startFrame": 564,
+      "endFrame": 730,
+      "durationInFrames": 166
+    },
+    {
+      "id": "Install",
+      "title": "03 · 把宠物放到这里",
+      "startFrame": 730,
+      "endFrame": 925,
+      "durationInFrames": 195
+    },
+    {
+      "id": "Activate",
+      "title": "04 · 在 Codex 中选择她",
+      "startFrame": 925,
+      "endFrame": 1141,
+      "durationInFrames": 216
+    },
+    {
+      "id": "Outro",
+      "title": "让维维美陪你工作",
+      "startFrame": 1141,
+      "endFrame": 1357,
+      "durationInFrames": 216
+    }
+  ]
+}

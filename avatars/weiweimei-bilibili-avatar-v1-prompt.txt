@@ -1,0 +1,16 @@
+# 维维美 B站大头头像 v1
+
+工具：内置 imagegen
+参考图 1：用户提供的橙发大头头像，仅用于画风和构图。
+参考图 2：用户提供的维维美角色图，用于角色身份与配色。
+输出：weiweimei-bilibili-avatar-v1.png，白色背景，正方形。
+
+实际生成提示词：
+
+Use case: stylized-concept / reference-guided character illustration.
+Asset type: one finished square Bilibili profile avatar, high-resolution clean 2D anime chibi big-head portrait.
+Input image 1 is ONLY the style and composition reference: its exaggerated round big face, enormous glossy eyes, tiny omega-shaped smile, very thick confident black outlines, simple flat cel colors, sparse shading, bright plain white background, and close-up head portrait. Input image 2 is the character identity reference, the user's Weiweimei mascot: preserve her recognizable silver/light-gray hair, layered pointed bangs, silver forelock/ahoge, striking red-and-black curved hornlike side accessories and red side ribbons, golden amber eyes, and a little black-and-white collar at the bottom.
+Create a NEW drawing of the character from image 2 in the big-head avatar format of image 1. This must read unmistakably as Weiweimei, retaining the character-specific hair silhouette and red/black ornaments rather than simply recoloring the orange-haired girl. Adapt the small full-body mascot into a detailed head-only close-up. Friendly mischievous cute expression, looking directly at viewer, a very slight playful head tilt, wide round peach-colored face, very large black upper pupils with gold/amber lower irises and clear white highlights, tiny curved omega smile, faint pink cheeks. Silver hair should have clear restrained gray shadow blocks and a few white highlights. Thick elegant black contour strokes consistent with image 1. Keep the red-and-black side accessories clearly visible and accurately based on image 2. Plain solid white opaque background.
+Composition: single character centered, head and hair occupy most of the square, only a tiny hint of neck/collar/shoulders at the bottom, no torso or full body, face is the main visual mass. Design for a circular avatar crop: eyes, mouth and core character identifiers stay safely inside the central circle, with a little breathing room around the ahoge and ornaments. Crisp readable silhouette even as a tiny icon. Similar visual simplicity and proportions to image 1, professional polished clean line art.
+Constraints: exactly one square avatar, no collage, no sample sheet, no circular border, no lettering, no account UI, no watermark. No orange fruit, no orange hair, no bird wings from image 1. No photographic rendering, no 3D, no painterly texture, no busy background, no realistic adult facial proportions.
+

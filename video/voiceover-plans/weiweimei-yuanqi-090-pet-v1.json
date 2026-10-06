@@ -1,0 +1,173 @@
+{
+  "sourceId": "BV1rb421h7Wf",
+  "profileId": "weiweimei-yuanqi-090-v1",
+  "outputDirectory": "C:\\IndexTTS\\outputs\\weiweimei\\pet-intro\\weiweimei-yuanqi-090-pet-v1",
+  "seed": 42,
+  "generationParameters": {
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.8,
+    "top_k": 30,
+    "num_beams": 3,
+    "repetition_penalty": 10.0,
+    "length_penalty": 0.0,
+    "max_mel_tokens": 1500
+  },
+  "samples": [
+    {
+      "id": "Hook",
+      "label": "给 Codex 添一位小伙伴",
+      "text": "嘿，我是维维美！想让我陪你用扣代克斯？这就带你把我装进电脑里！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Showcase",
+      "label": "九组动作，表情很丰富",
+      "text": "眨眼、挥手、小跳，还有炸毛！九组动作和十六个视线方向，表情管够！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Download",
+      "label": "01 · 下载项目",
+      "text": "先打开简介里的项目链接，点开绿色的下载菜单，下载压缩包，再解压。",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Preview",
+      "label": "02 · 先看看她的样子",
+      "text": "先打开画面上这个预览文件，切换动作，看看是不是你喜欢的样子！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Install",
+      "label": "03 · 把宠物放到这里",
+      "text": "喜欢的话，就把维维美文件夹放进画面上的宠物目录，里面直接放这两个文件。",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Activate",
+      "label": "04 · 在 Codex 中选择她",
+      "text": "回到扣代克斯设置，找到迷你与虚拟宠物。刷新列表，选我，再打开显示！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    },
+    {
+      "id": "Outro",
+      "label": "让维维美陪你工作",
+      "text": "装好啦，我来陪你工作！提醒一下，工作表情目前只会短暂播放。项目链接在简介里！",
+      "reference": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\reference.wav",
+      "referenceExcerptSeconds": [
+        27.6,
+        33.2
+      ],
+      "durationFactor": 0.9,
+      "emotionVector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.05,
+        0
+      ],
+      "emotionWeight": 0.65
+    }
+  ],
+  "userDirection": "User-approved B voice, light energy, duration 0.90. Whole scene, no manual phrase pauses."
+}

@@ -1,0 +1,13 @@
+给你的 Codex 添一位小伙伴——维维美！
+
+本期带你下载项目、预览角色动作，并在支持自定义宠物的 Windows Codex 桌面客户端里安装这只 Q 版宠物。
+
+项目地址与使用说明：
+https://github.com/KoroLiu/weiweimei-codex-pet
+
+直接下载 ZIP：
+https://github.com/KoroLiu/weiweimei-codex-pet/archive/refs/heads/main.zip
+
+下载后先解压，打开 final/index.html 可以预览，再按视频步骤安装。安装宠物不需要额外安装 Python 或 TTS 模型。
+
+谢谢大家，我们下期再见！

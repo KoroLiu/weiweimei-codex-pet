@@ -1,0 +1,12 @@
+{
+  "profileId": "weiweimei-yuanqi-090-v1",
+  "profilePath": "C:\\IndexTTS\\voices\\weiweimei\\profiles\\weiweimei-yuanqi-090-v1\\profile.json",
+  "approvedBy": "user",
+  "durationFactor": 0.9,
+  "manualPauseInsertion": false,
+  "scriptStatus": "draft_awaiting_user_review",
+  "generationUnit": "whole_scene",
+  "narrator": "维维美本人第一人称",
+  "lastBatch": "C:\\IndexTTS\\outputs\\weiweimei\\pet-intro\\weiweimei-yuanqi-090-pet-v1\\batch-manifest.json",
+  "storyboardSha256": "29ce27b020a07560895a4b3a055dd39044e97e79f4d898361d614109b399c06b"
+}
